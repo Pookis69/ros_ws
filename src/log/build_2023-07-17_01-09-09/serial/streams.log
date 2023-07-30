@@ -1,0 +1,81 @@
+[0.105s] Invoking command in '/home/ass/dev_ws/src/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ass/dev_ws/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ass/dev_ws/src/install/serial
+[0.391s] -- The C compiler identification is GNU 11.3.0
+[0.663s] -- The CXX compiler identification is GNU 11.3.0
+[0.691s] -- Detecting C compiler ABI info
+[1.042s] -- Detecting C compiler ABI info - done
+[1.071s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.073s] -- Detecting C compile features
+[1.075s] -- Detecting C compile features - done
+[1.089s] -- Detecting CXX compiler ABI info
+[1.474s] -- Detecting CXX compiler ABI info - done
+[1.499s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.501s] -- Detecting CXX compile features
+[1.502s] -- Detecting CXX compile features - done
+[1.524s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.539s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[2.859s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.117s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[3.172s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[3.192s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.200s] -- Looking for pthread.h
+[3.561s] -- Looking for pthread.h - found
+[3.562s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.893s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.897s] -- Found Threads: TRUE  
+[4.261s] -- Configuring done
+[4.334s] -- Generating done
+[4.343s] -- Build files have been written to: /home/ass/dev_ws/src/build/serial
+[4.367s] Invoked command in '/home/ass/dev_ws/src/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ass/dev_ws/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ass/dev_ws/src/install/serial
+[4.376s] Invoking command in '/home/ass/dev_ws/src/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ass/dev_ws/src/build/serial -- -j4 -l4
+[4.589s] [  7%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[4.598s] [ 14%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[4.612s] [ 21%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[4.625s] [ 28%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[8.165s] [ 35%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[12.759s] [ 42%] [32m[1mLinking CXX static library libserial.a[0m
+[12.903s] [ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[12.993s] [ 50%] Built target serial
+[13.096s] [ 50%] Built target gtest_main
+[13.101s] [ 57%] [32mBuilding CXX object CMakeFiles/serial_example.dir/examples/serial_example.cc.o[0m
+[14.845s] [ 64%] [32m[1mLinking CXX executable serial_example[0m
+[15.207s] [ 64%] Built target serial_example
+[23.288s] [ 71%] [32m[1mLinking CXX static library libgtest.a[0m
+[23.901s] [ 71%] Built target gtest
+[23.990s] [ 78%] [32mBuilding CXX object tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o[0m
+[23.993s] [ 85%] [32mBuilding CXX object tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o[0m
+[30.097s] In file included from [01m[K/usr/include/boost/bind.hpp:30[m[K,
+[30.097s]                  from [01m[K/home/ass/dev_ws/src/serial/tests/unix_serial_tests.cc:23[m[K:
+[30.098s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[30.099s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[30.099s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[30.485s] [ 92%] [32m[1mLinking CXX executable serial-test-timer[0m
+[31.083s] [ 92%] Built target serial-test-timer
+[31.134s] [100%] [32m[1mLinking CXX executable serial-test[0m
+[31.697s] [100%] Built target serial-test
+[31.741s] Invoked command in '/home/ass/dev_ws/src/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ass/dev_ws/src/build/serial -- -j4 -l4
+[31.940s] Invoking command in '/home/ass/dev_ws/src/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ass/dev_ws/src/build/serial
+[31.966s] -- Install configuration: ""
+[31.968s] -- Execute custom install script
+[31.969s] -- Symlinking: /home/ass/dev_ws/src/install/serial/lib/libserial.a
+[32.001s] -- Symlinking: /home/ass/dev_ws/src/install/serial/include/serial/serial.h
+[32.034s] -- Symlinking: /home/ass/dev_ws/src/install/serial/include/serial/v8stdint.h
+[32.066s] -- Symlinking: /home/ass/dev_ws/src/install/serial/share/serial/environment/library_path.sh
+[32.098s] -- Symlinking: /home/ass/dev_ws/src/install/serial/share/serial/environment/library_path.dsv
+[32.133s] -- Symlinking: /home/ass/dev_ws/src/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[32.165s] -- Symlinking: /home/ass/dev_ws/src/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[32.196s] -- Symlinking: /home/ass/dev_ws/src/install/serial/share/serial/environment/ament_prefix_path.sh
+[32.230s] -- Symlinking: /home/ass/dev_ws/src/install/serial/share/serial/environment/ament_prefix_path.dsv
+[32.261s] -- Symlinking: /home/ass/dev_ws/src/install/serial/share/serial/environment/path.sh
+[32.293s] -- Symlinking: /home/ass/dev_ws/src/install/serial/share/serial/environment/path.dsv
+[32.326s] -- Symlinking: /home/ass/dev_ws/src/install/serial/share/serial/local_setup.bash
+[32.358s] -- Symlinking: /home/ass/dev_ws/src/install/serial/share/serial/local_setup.sh
+[32.389s] -- Symlinking: /home/ass/dev_ws/src/install/serial/share/serial/local_setup.zsh
+[32.424s] -- Symlinking: /home/ass/dev_ws/src/install/serial/share/serial/local_setup.dsv
+[32.454s] -- Symlinking: /home/ass/dev_ws/src/install/serial/share/serial/package.dsv
+[32.486s] -- Symlinking: /home/ass/dev_ws/src/install/serial/share/ament_index/resource_index/packages/serial
+[32.518s] -- Symlinking: /home/ass/dev_ws/src/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[32.551s] -- Symlinking: /home/ass/dev_ws/src/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[32.584s] -- Symlinking: /home/ass/dev_ws/src/install/serial/share/serial/cmake/serialConfig.cmake
+[32.615s] -- Symlinking: /home/ass/dev_ws/src/install/serial/share/serial/cmake/serialConfig-version.cmake
+[32.649s] -- Symlinking: /home/ass/dev_ws/src/install/serial/share/serial/package.xml
+[32.695s] Invoked command in '/home/ass/dev_ws/src/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ass/dev_ws/src/build/serial

@@ -1,0 +1,24 @@
+[5.055s] Invoking command in '/home/ass/dev_ws/src/twist_mux_example/src/twist_mux_test': PYTHONPATH=/home/ass/dev_ws/build/twist_mux_test/prefix_override:/home/ass/dev_ws/install/twist_mux_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/twist_mux_test build --build-base /home/ass/dev_ws/build/twist_mux_test/build install --record /home/ass/dev_ws/build/twist_mux_test/install.log --install-scripts $base/lib/twist_mux_test --single-version-externally-managed
+[6.138s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[6.138s]   warnings.warn(
+[6.171s] running egg_info
+[6.174s] writing ../../../../build/twist_mux_test/twist_mux_test.egg-info/PKG-INFO
+[6.179s] writing dependency_links to ../../../../build/twist_mux_test/twist_mux_test.egg-info/dependency_links.txt
+[6.182s] writing entry points to ../../../../build/twist_mux_test/twist_mux_test.egg-info/entry_points.txt
+[6.183s] writing requirements to ../../../../build/twist_mux_test/twist_mux_test.egg-info/requires.txt
+[6.184s] writing top-level names to ../../../../build/twist_mux_test/twist_mux_test.egg-info/top_level.txt
+[6.196s] reading manifest file '../../../../build/twist_mux_test/twist_mux_test.egg-info/SOURCES.txt'
+[6.201s] writing manifest file '../../../../build/twist_mux_test/twist_mux_test.egg-info/SOURCES.txt'
+[6.202s] running build
+[6.203s] running build_py
+[6.205s] running install
+[6.207s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.208s]   warnings.warn(
+[6.209s] running install_lib
+[6.216s] running install_data
+[6.222s] running install_egg_info
+[6.232s] removing '/home/ass/dev_ws/install/twist_mux_test/lib/python3.10/site-packages/twist_mux_test-0.0.0-py3.10.egg-info' (and everything under it)
+[6.234s] Copying ../../../../build/twist_mux_test/twist_mux_test.egg-info to /home/ass/dev_ws/install/twist_mux_test/lib/python3.10/site-packages/twist_mux_test-0.0.0-py3.10.egg-info
+[6.246s] running install_scripts
+[6.333s] writing list of installed files to '/home/ass/dev_ws/build/twist_mux_test/install.log'
+[6.462s] Invoked command in '/home/ass/dev_ws/src/twist_mux_example/src/twist_mux_test' returned '0': PYTHONPATH=/home/ass/dev_ws/build/twist_mux_test/prefix_override:/home/ass/dev_ws/install/twist_mux_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/twist_mux_test build --build-base /home/ass/dev_ws/build/twist_mux_test/build install --record /home/ass/dev_ws/build/twist_mux_test/install.log --install-scripts $base/lib/twist_mux_test --single-version-externally-managed

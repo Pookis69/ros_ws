@@ -1,0 +1,329 @@
+[0.000000] (-) TimerEvent: {}
+[0.001604] (articubot_one) JobQueued: {'identifier': 'articubot_one', 'dependencies': OrderedDict()}
+[0.001734] (serial) JobQueued: {'identifier': 'serial', 'dependencies': OrderedDict()}
+[0.001817] (diffdrive_arduino) JobQueued: {'identifier': 'diffdrive_arduino', 'dependencies': OrderedDict([('serial', '/home/ass/dev_ws/install/serial')])}
+[0.001905] (serial) JobStarted: {'identifier': 'serial'}
+[0.044577] (articubot_one) JobStarted: {'identifier': 'articubot_one'}
+[0.077722] (serial) JobProgress: {'identifier': 'serial', 'progress': 'cmake'}
+[0.081670] (serial) Command: {'cmd': ['/usr/bin/cmake', '/home/ass/dev_ws/src/serial', '-DCMAKE_INSTALL_PREFIX=/home/ass/dev_ws/install/serial'], 'cwd': '/home/ass/dev_ws/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ass'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ass'), ('OLDPWD', '/home/ass'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1797'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ass'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ass'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ass-desktop:@/tmp/.ICE-unix/1751,unix/ass-desktop:/tmp/.ICE-unix/1751'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d81c88ea_9399_41f0_8ce4_16fdf54644ee'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.55B971'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.125'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ass/dev_ws/build/serial'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099563] (-) TimerEvent: {}
+[0.104199] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'cmake'}
+[0.107649] (articubot_one) Command: {'cmd': ['/usr/bin/cmake', '/home/ass/dev_ws/src/articubot_one', '-DCMAKE_INSTALL_PREFIX=/home/ass/dev_ws/install/articubot_one'], 'cwd': '/home/ass/dev_ws/build/articubot_one', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ass'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ass'), ('OLDPWD', '/home/ass'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1797'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ass'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ass'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ass-desktop:@/tmp/.ICE-unix/1751,unix/ass-desktop:/tmp/.ICE-unix/1751'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d81c88ea_9399_41f0_8ce4_16fdf54644ee'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.55B971'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.125'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ass/dev_ws/build/articubot_one'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.156304] (serial) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.172155] (articubot_one) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199718] (-) TimerEvent: {}
+[0.300519] (-) TimerEvent: {}
+[0.402011] (-) TimerEvent: {}
+[0.503283] (-) TimerEvent: {}
+[0.604567] (-) TimerEvent: {}
+[0.705732] (-) TimerEvent: {}
+[0.806483] (-) TimerEvent: {}
+[0.907324] (-) TimerEvent: {}
+[0.940759] (serial) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.974169] (articubot_one) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.007511] (-) TimerEvent: {}
+[1.010109] (serial) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[1.014406] (articubot_one) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.054769] (serial) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[1.107690] (-) TimerEvent: {}
+[1.208648] (-) TimerEvent: {}
+[1.309663] (-) TimerEvent: {}
+[1.410795] (-) TimerEvent: {}
+[1.460462] (serial) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.463005] (articubot_one) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.510983] (-) TimerEvent: {}
+[1.569093] (serial) StdoutLine: {'line': b'-- Generating done\n'}
+[1.592217] (serial) StdoutLine: {'line': b'-- Build files have been written to: /home/ass/dev_ws/build/serial\n'}
+[1.596572] (articubot_one) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.604677] (serial) CommandEnded: {'returncode': 0}
+[1.606440] (serial) JobProgress: {'identifier': 'serial', 'progress': 'build'}
+[1.608822] (serial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ass/dev_ws/build/serial', '--', '-j4', '-l4'], 'cwd': '/home/ass/dev_ws/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ass'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ass'), ('OLDPWD', '/home/ass'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1797'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ass'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ass'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ass-desktop:@/tmp/.ICE-unix/1751,unix/ass-desktop:/tmp/.ICE-unix/1751'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d81c88ea_9399_41f0_8ce4_16fdf54644ee'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.55B971'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.125'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ass/dev_ws/build/serial'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.615611] (-) TimerEvent: {}
+[1.617519] (articubot_one) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.622107] (articubot_one) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.677023] (articubot_one) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.686537] (articubot_one) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.715849] (-) TimerEvent: {}
+[1.720085] (articubot_one) StdoutLine: {'line': b'-- Generating done\n'}
+[1.729182] (articubot_one) StdoutLine: {'line': b'-- Build files have been written to: /home/ass/dev_ws/build/articubot_one\n'}
+[1.741846] (articubot_one) CommandEnded: {'returncode': 0}
+[1.749163] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'build'}
+[1.749459] (articubot_one) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ass/dev_ws/build/articubot_one', '--', '-j4', '-l4'], 'cwd': '/home/ass/dev_ws/build/articubot_one', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ass'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ass'), ('OLDPWD', '/home/ass'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1797'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ass'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ass'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ass-desktop:@/tmp/.ICE-unix/1751,unix/ass-desktop:/tmp/.ICE-unix/1751'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d81c88ea_9399_41f0_8ce4_16fdf54644ee'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.55B971'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.125'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ass/dev_ws/build/articubot_one'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.774673] (serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gtest\x1b[0m\n'}
+[1.791993] (serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serial\x1b[0m\n'}
+[1.796124] (serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gtest_main\x1b[0m\n'}
+[1.816890] (-) TimerEvent: {}
+[1.868381] (serial) StdoutLine: {'line': b'[ 28%] Built target serial\n'}
+[1.870709] (serial) StdoutLine: {'line': b'[ 42%] Built target gtest\n'}
+[1.876136] (serial) StdoutLine: {'line': b'[ 57%] Built target gtest_main\n'}
+[1.917167] (-) TimerEvent: {}
+[1.929550] (serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serial-test-timer\x1b[0m\n'}
+[1.930601] (serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serial-test\x1b[0m\n'}
+[1.935877] (serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serial_example\x1b[0m\n'}
+[1.958911] (articubot_one) CommandEnded: {'returncode': 0}
+[2.001344] (serial) StdoutLine: {'line': b'[ 71%] Built target serial_example\n'}
+[2.007554] (serial) StdoutLine: {'line': b'[ 85%] Built target serial-test-timer\n'}
+[2.017333] (-) TimerEvent: {}
+[2.018300] (serial) StdoutLine: {'line': b'[100%] Built target serial-test\n'}
+[2.061857] (serial) CommandEnded: {'returncode': 0}
+[2.073562] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'install'}
+[2.107923] (articubot_one) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ass/dev_ws/build/articubot_one'], 'cwd': '/home/ass/dev_ws/build/articubot_one', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ass'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ass'), ('OLDPWD', '/home/ass'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1797'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ass'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ass'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ass-desktop:@/tmp/.ICE-unix/1751,unix/ass-desktop:/tmp/.ICE-unix/1751'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d81c88ea_9399_41f0_8ce4_16fdf54644ee'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.55B971'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.125'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ass/dev_ws/build/articubot_one'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.117493] (-) TimerEvent: {}
+[2.140163] (articubot_one) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.141924] (articubot_one) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.144651] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/articubot_one/share/articubot_one/config/ball_tracker_params_robot.yaml\n'}
+[2.145526] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/articubot_one/share/articubot_one/config/ball_tracker_params_sim.yaml\n'}
+[2.146684] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/articubot_one/share/articubot_one/config/drive_bot.rviz\n'}
+[2.147844] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/articubot_one/share/articubot_one/config/empty.yaml\n'}
+[2.149726] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/articubot_one/share/articubot_one/config/gaz_ros2_ctl_use_sim.yaml\n'}
+[2.150620] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/articubot_one/share/articubot_one/config/gazebo_params.yaml\n'}
+[2.152397] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/articubot_one/share/articubot_one/config/joystick.yaml\n'}
+[2.153878] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/articubot_one/share/articubot_one/config/main.rviz\n'}
+[2.154565] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/articubot_one/share/articubot_one/config/map.rviz\n'}
+[2.155897] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/articubot_one/share/articubot_one/config/mapper_params_online_async.yaml\n'}
+[2.156554] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/articubot_one/share/articubot_one/config/my_controllers.yaml\n'}
+[2.157104] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/articubot_one/share/articubot_one/config/nav2_params.yaml\n'}
+[2.157666] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/articubot_one/share/articubot_one/config/twist_mux.yaml\n'}
+[2.159120] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/articubot_one/share/articubot_one/config/view_bot.rviz\n'}
+[2.160898] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/articubot_one/share/articubot_one/description/camera.xacro\n'}
+[2.161647] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/articubot_one/share/articubot_one/description/depth_camera.xacro\n'}
+[2.162392] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/articubot_one/share/articubot_one/description/face.xacro\n'}
+[2.163211] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/articubot_one/share/articubot_one/description/gazebo_control.xacro\n'}
+[2.164049] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/articubot_one/share/articubot_one/description/inertial_macros.xacro\n'}
+[2.165188] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/articubot_one/share/articubot_one/description/lidar.xacro\n'}
+[2.165652] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/articubot_one/share/articubot_one/description/robot.urdf.xacro\n'}
+[2.166259] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/articubot_one/share/articubot_one/description/robot_core.xacro\n'}
+[2.167031] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/articubot_one/share/articubot_one/description/ros2_control.xacro\n'}
+[2.169184] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/articubot_one/share/articubot_one/launch/ball_tracker.launch.py\n'}
+[2.169902] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/articubot_one/share/articubot_one/launch/camera.launch.py\n'}
+[2.170634] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/articubot_one/share/articubot_one/launch/joystick.launch.py\n'}
+[2.171408] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/articubot_one/share/articubot_one/launch/launch_robot.launch.py\n'}
+[2.172154] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py\n'}
+[2.173169] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/articubot_one/share/articubot_one/launch/localization_launch.py\n'}
+[2.173871] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/articubot_one/share/articubot_one/launch/navigation_launch.py\n'}
+[2.174399] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/articubot_one/share/articubot_one/launch/online_async_launch.py\n'}
+[2.175277] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/articubot_one/share/articubot_one/launch/rplidar.launch.py\n'}
+[2.176011] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/articubot_one/share/articubot_one/launch/rsp.launch.py\n'}
+[2.177326] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/articubot_one/share/articubot_one/worlds/empty.world\n'}
+[2.178451] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/articubot_one/share/articubot_one/worlds/obstacles.world\n'}
+[2.179497] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one\n'}
+[2.181119] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one\n'}
+[2.182169] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh\n'}
+[2.183391] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv\n'}
+[2.184381] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/articubot_one/share/articubot_one/environment/path.sh\n'}
+[2.185669] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/articubot_one/share/articubot_one/environment/path.dsv\n'}
+[2.186659] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/articubot_one/share/articubot_one/local_setup.bash\n'}
+[2.187882] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/articubot_one/share/articubot_one/local_setup.sh\n'}
+[2.188709] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/articubot_one/share/articubot_one/local_setup.zsh\n'}
+[2.189699] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/articubot_one/share/articubot_one/local_setup.dsv\n'}
+[2.190335] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ass/dev_ws/install/articubot_one/share/articubot_one/package.dsv\n'}
+[2.217714] (-) TimerEvent: {}
+[2.223601] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/articubot_one/share/ament_index/resource_index/packages/articubot_one\n'}
+[2.224740] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake\n'}
+[2.225322] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake\n'}
+[2.226242] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/articubot_one/share/articubot_one/package.xml\n'}
+[2.234253] (articubot_one) CommandEnded: {'returncode': 0}
+[2.309770] (serial) JobProgress: {'identifier': 'serial', 'progress': 'install'}
+[2.310745] (serial) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ass/dev_ws/build/serial'], 'cwd': '/home/ass/dev_ws/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ass'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ass'), ('OLDPWD', '/home/ass'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1797'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ass'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ass'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ass-desktop:@/tmp/.ICE-unix/1751,unix/ass-desktop:/tmp/.ICE-unix/1751'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d81c88ea_9399_41f0_8ce4_16fdf54644ee'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.55B971'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.125'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ass/dev_ws/build/serial'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.318928] (-) TimerEvent: {}
+[2.343501] (serial) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.345245] (serial) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.347428] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/serial/lib/libserial.a\n'}
+[2.348859] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/serial/include/serial/serial.h\n'}
+[2.349966] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/serial/include/serial/v8stdint.h\n'}
+[2.352264] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/serial/share/serial/environment/library_path.sh\n'}
+[2.354676] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/serial/share/serial/environment/library_path.dsv\n'}
+[2.355995] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial\n'}
+[2.357317] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial\n'}
+[2.359370] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/serial/share/serial/environment/ament_prefix_path.sh\n'}
+[2.360370] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/serial/share/serial/environment/ament_prefix_path.dsv\n'}
+[2.361407] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/serial/share/serial/environment/path.sh\n'}
+[2.362372] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/serial/share/serial/environment/path.dsv\n'}
+[2.363816] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/serial/share/serial/local_setup.bash\n'}
+[2.364332] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/serial/share/serial/local_setup.sh\n'}
+[2.365040] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/serial/share/serial/local_setup.zsh\n'}
+[2.365966] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/serial/share/serial/local_setup.dsv\n'}
+[2.366659] (serial) StdoutLine: {'line': b'-- Symlinking: /home/ass/dev_ws/install/serial/share/serial/package.dsv\n'}
+[2.400054] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/serial/share/ament_index/resource_index/packages/serial\n'}
+[2.400759] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.402226] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.402942] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/serial/share/serial/cmake/serialConfig.cmake\n'}
+[2.403609] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/serial/share/serial/cmake/serialConfig-version.cmake\n'}
+[2.404326] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ass/dev_ws/install/serial/share/serial/package.xml\n'}
+[2.424216] (-) TimerEvent: {}
+[2.465716] (articubot_one) JobEnded: {'identifier': 'articubot_one', 'rc': 0}
+[2.477579] (serial) CommandEnded: {'returncode': 0}
+[2.524401] (-) TimerEvent: {}
+[2.625126] (-) TimerEvent: {}
+[2.731090] (-) TimerEvent: {}
+[2.772893] (serial) JobEnded: {'identifier': 'serial', 'rc': 0}
+[2.784597] (diffdrive_arduino) JobStarted: {'identifier': 'diffdrive_arduino'}
+[2.817369] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'cmake'}
+[2.822464] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '/home/ass/dev_ws/src/diffdrive_arduino', '-DCMAKE_INSTALL_PREFIX=/home/ass/dev_ws/install/diffdrive_arduino'], 'cwd': '/home/ass/dev_ws/build/diffdrive_arduino', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ass'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ass/dev_ws/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ass'), ('OLDPWD', '/home/ass'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1797'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ass'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ass'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ass-desktop:@/tmp/.ICE-unix/1751,unix/ass-desktop:/tmp/.ICE-unix/1751'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d81c88ea_9399_41f0_8ce4_16fdf54644ee'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.55B971'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.125'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ass/dev_ws/install/serial:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ass/dev_ws/build/diffdrive_arduino'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ass/dev_ws/install/serial:/opt/ros/humble')]), 'shell': False}
+[2.832135] (-) TimerEvent: {}
+[2.880355] (diffdrive_arduino) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.932323] (-) TimerEvent: {}
+[3.033145] (-) TimerEvent: {}
+[3.133941] (-) TimerEvent: {}
+[3.234704] (-) TimerEvent: {}
+[3.335528] (-) TimerEvent: {}
+[3.436179] (-) TimerEvent: {}
+[3.507636] (diffdrive_arduino) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.536381] (-) TimerEvent: {}
+[3.538909] (diffdrive_arduino) StdoutLine: {'line': b'-- Found serial: 1.2.1 (/home/ass/dev_ws/install/serial/share/serial/cmake)\n'}
+[3.544004] (diffdrive_arduino) StdoutLine: {'line': b'-- Found hardware_interface: 2.28.0 (/opt/ros/humble/share/hardware_interface/cmake)\n'}
+[3.636553] (-) TimerEvent: {}
+[3.712723] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.723299] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.736744] (-) TimerEvent: {}
+[3.747463] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.794416] (diffdrive_arduino) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.836975] (-) TimerEvent: {}
+[3.857398] (diffdrive_arduino) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.937167] (-) TimerEvent: {}
+[4.037880] (-) TimerEvent: {}
+[4.138618] (-) TimerEvent: {}
+[4.239359] (-) TimerEvent: {}
+[4.340085] (-) TimerEvent: {}
+[4.440776] (-) TimerEvent: {}
+[4.541467] (-) TimerEvent: {}
+[4.642126] (-) TimerEvent: {}
+[4.742834] (-) TimerEvent: {}
+[4.843510] (-) TimerEvent: {}
+[4.944225] (-) TimerEvent: {}
+[5.044901] (-) TimerEvent: {}
+[5.145750] (-) TimerEvent: {}
+[5.246447] (-) TimerEvent: {}
+[5.347209] (-) TimerEvent: {}
+[5.447932] (-) TimerEvent: {}
+[5.548667] (-) TimerEvent: {}
+[5.649350] (-) TimerEvent: {}
+[5.750160] (-) TimerEvent: {}
+[5.851131] (-) TimerEvent: {}
+[5.951810] (-) TimerEvent: {}
+[6.052592] (-) TimerEvent: {}
+[6.153440] (-) TimerEvent: {}
+[6.254199] (-) TimerEvent: {}
+[6.354949] (-) TimerEvent: {}
+[6.381298] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[6.390162] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[6.455164] (-) TimerEvent: {}
+[6.556063] (-) TimerEvent: {}
+[6.656739] (-) TimerEvent: {}
+[6.757455] (-) TimerEvent: {}
+[6.858205] (-) TimerEvent: {}
+[6.958904] (-) TimerEvent: {}
+[7.059571] (-) TimerEvent: {}
+[7.160250] (-) TimerEvent: {}
+[7.260932] (-) TimerEvent: {}
+[7.361649] (-) TimerEvent: {}
+[7.414818] (diffdrive_arduino) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[7.461852] (-) TimerEvent: {}
+[7.562554] (-) TimerEvent: {}
+[7.663290] (-) TimerEvent: {}
+[7.763969] (-) TimerEvent: {}
+[7.864657] (-) TimerEvent: {}
+[7.965358] (-) TimerEvent: {}
+[8.019946] (diffdrive_arduino) StdoutLine: {'line': b'-- Found controller_manager: 2.28.0 (/opt/ros/humble/share/controller_manager/cmake)\n'}
+[8.065563] (-) TimerEvent: {}
+[8.166257] (-) TimerEvent: {}
+[8.266972] (-) TimerEvent: {}
+[8.367683] (-) TimerEvent: {}
+[8.468405] (-) TimerEvent: {}
+[8.569115] (-) TimerEvent: {}
+[8.669854] (-) TimerEvent: {}
+[8.770620] (-) TimerEvent: {}
+[8.871415] (-) TimerEvent: {}
+[8.972108] (-) TimerEvent: {}
+[9.072786] (-) TimerEvent: {}
+[9.173474] (-) TimerEvent: {}
+[9.274155] (-) TimerEvent: {}
+[9.374842] (-) TimerEvent: {}
+[9.475550] (-) TimerEvent: {}
+[9.576256] (-) TimerEvent: {}
+[9.676996] (-) TimerEvent: {}
+[9.777723] (-) TimerEvent: {}
+[9.878705] (-) TimerEvent: {}
+[9.979567] (-) TimerEvent: {}
+[10.080328] (-) TimerEvent: {}
+[10.181086] (-) TimerEvent: {}
+[10.281936] (-) TimerEvent: {}
+[10.382827] (-) TimerEvent: {}
+[10.483947] (-) TimerEvent: {}
+[10.584792] (-) TimerEvent: {}
+[10.685620] (-) TimerEvent: {}
+[10.786360] (-) TimerEvent: {}
+[10.887114] (-) TimerEvent: {}
+[10.987797] (-) TimerEvent: {}
+[11.088545] (-) TimerEvent: {}
+[11.189395] (-) TimerEvent: {}
+[11.290108] (-) TimerEvent: {}
+[11.390868] (-) TimerEvent: {}
+[11.491579] (-) TimerEvent: {}
+[11.592318] (-) TimerEvent: {}
+[11.693046] (-) TimerEvent: {}
+[11.793870] (-) TimerEvent: {}
+[11.894668] (-) TimerEvent: {}
+[11.995539] (-) TimerEvent: {}
+[12.096334] (-) TimerEvent: {}
+[12.196998] (-) TimerEvent: {}
+[12.297702] (-) TimerEvent: {}
+[12.398406] (-) TimerEvent: {}
+[12.499192] (-) TimerEvent: {}
+[12.557161] (diffdrive_arduino) StdoutLine: {'line': b'-- Configuring done\n'}
+[12.599379] (-) TimerEvent: {}
+[12.700656] (-) TimerEvent: {}
+[12.801326] (-) TimerEvent: {}
+[12.891420] (diffdrive_arduino) StdoutLine: {'line': b'-- Generating done\n'}
+[12.901551] (-) TimerEvent: {}
+[12.910027] (diffdrive_arduino) StdoutLine: {'line': b'-- Build files have been written to: /home/ass/dev_ws/build/diffdrive_arduino\n'}
+[12.948286] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[12.950944] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'build'}
+[12.952100] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ass/dev_ws/build/diffdrive_arduino', '--', '-j4', '-l4'], 'cwd': '/home/ass/dev_ws/build/diffdrive_arduino', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ass'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ass/dev_ws/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ass'), ('OLDPWD', '/home/ass'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1797'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ass'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ass'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ass-desktop:@/tmp/.ICE-unix/1751,unix/ass-desktop:/tmp/.ICE-unix/1751'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d81c88ea_9399_41f0_8ce4_16fdf54644ee'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.55B971'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.125'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ass/dev_ws/install/serial:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ass/dev_ws/build/diffdrive_arduino'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ass/dev_ws/install/serial:/opt/ros/humble')]), 'shell': False}
+[13.001842] (-) TimerEvent: {}
+[13.102606] (-) TimerEvent: {}
+[13.135466] (diffdrive_arduino) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target fake_robot\x1b[0m\n'}
+[13.136971] (diffdrive_arduino) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target diffdrive_arduino\x1b[0m\n'}
+[13.187308] (diffdrive_arduino) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/fake_robot.dir/src/fake_robot.cpp.o\x1b[0m\n'}
+[13.202857] (-) TimerEvent: {}
+[13.221850] (diffdrive_arduino) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/diffdrive_arduino.cpp.o\x1b[0m\n'}
+[13.303059] (-) TimerEvent: {}
+[13.403755] (-) TimerEvent: {}
+[13.504669] (-) TimerEvent: {}
+[13.605421] (-) TimerEvent: {}
+[13.706137] (-) TimerEvent: {}
+[13.806876] (-) TimerEvent: {}
+[13.907576] (-) TimerEvent: {}
+[14.008261] (-) TimerEvent: {}
+[14.108952] (-) TimerEvent: {}
+[14.209676] (-) TimerEvent: {}
+[14.310472] (-) TimerEvent: {}
+[14.411261] (-) TimerEvent: {}
+[14.512013] (-) TimerEvent: {}
+[14.612904] (-) TimerEvent: {}
+[14.713673] (-) TimerEvent: {}
+[14.814383] (-) TimerEvent: {}
+[14.915157] (-) TimerEvent: {}
+[15.015914] (-) TimerEvent: {}
+[15.050498] (diffdrive_arduino) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ass/dev_ws/src/diffdrive_arduino/src/fake_robot.cpp:1\x1b[m\x1b[K:\n'}
+[15.051235] (diffdrive_arduino) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ass/dev_ws/src/diffdrive_arduino/include/diffdrive_arduino/fake_robot.h:7:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Khardware_interface/base_interface.hpp: No such file or directory\n'}
+[15.051676] (diffdrive_arduino) StderrLine: {'line': b'    7 | #include \x1b[01;31m\x1b[K"hardware_interface/base_interface.hpp"\x1b[m\x1b[K\n'}
+[15.052012] (diffdrive_arduino) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.052359] (diffdrive_arduino) StderrLine: {'line': b'compilation terminated.\n'}
+[15.066149] (diffdrive_arduino) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/fake_robot.dir/build.make:76: CMakeFiles/fake_robot.dir/src/fake_robot.cpp.o] Error 1\n'}
+[15.067560] (diffdrive_arduino) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/fake_robot.dir/all] Error 2\n'}
+[15.068045] (diffdrive_arduino) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[15.102370] (diffdrive_arduino) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ass/dev_ws/src/diffdrive_arduino/src/diffdrive_arduino.cpp:1\x1b[m\x1b[K:\n'}
+[15.102972] (diffdrive_arduino) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ass/dev_ws/src/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino.h:7:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Khardware_interface/base_interface.hpp: No such file or directory\n'}
+[15.103390] (diffdrive_arduino) StderrLine: {'line': b'    7 | #include \x1b[01;31m\x1b[K"hardware_interface/base_interface.hpp"\x1b[m\x1b[K\n'}
+[15.103754] (diffdrive_arduino) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.104088] (diffdrive_arduino) StderrLine: {'line': b'compilation terminated.\n'}
+[15.114476] (diffdrive_arduino) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/diffdrive_arduino.dir/build.make:76: CMakeFiles/diffdrive_arduino.dir/src/diffdrive_arduino.cpp.o] Error 1\n'}
+[15.115789] (diffdrive_arduino) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/diffdrive_arduino.dir/all] Error 2\n'}
+[15.116612] (-) TimerEvent: {}
+[15.118933] (diffdrive_arduino) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[15.123825] (diffdrive_arduino) CommandEnded: {'returncode': 2}
+[15.216793] (-) TimerEvent: {}
+[15.317793] (-) TimerEvent: {}
+[15.334591] (diffdrive_arduino) JobEnded: {'identifier': 'diffdrive_arduino', 'rc': 2}
+[15.346756] (-) EventReactorShutdown: {}

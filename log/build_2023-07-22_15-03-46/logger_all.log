@@ -1,0 +1,363 @@
+[3.636s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[3.637s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffbcc6f160>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffbcbcbdc0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffbcbcbdc0>>)
+[4.030s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.030s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.030s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.031s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.031s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.031s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.031s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ass/dev_ws'
+[4.032s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.032s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.033s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.033s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.033s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.033s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.034s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.034s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.034s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[4.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[4.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[4.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[4.129s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[4.129s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.129s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[4.130s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[4.130s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.131s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[4.131s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[4.132s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.132s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[4.132s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[4.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[4.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[4.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[4.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[4.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[4.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[4.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[4.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[4.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[4.138s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[4.138s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[4.138s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[4.138s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[4.138s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[4.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['ignore', 'ignore_ament_install']
+[4.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'ignore'
+[4.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'ignore_ament_install'
+[4.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['colcon_pkg']
+[4.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'colcon_pkg'
+[4.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['colcon_meta']
+[4.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'colcon_meta'
+[4.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['ros']
+[4.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'ros'
+[4.158s] DEBUG:colcon.colcon_core.package_identification:Package 'src/articubot_one' with type 'ros.ament_cmake' and name 'articubot_one'
+[4.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[4.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[4.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[4.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['ignore', 'ignore_ament_install']
+[4.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ignore'
+[4.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ignore_ament_install'
+[4.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['colcon_pkg']
+[4.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'colcon_pkg'
+[4.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['colcon_meta']
+[4.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'colcon_meta'
+[4.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['ros']
+[4.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ros'
+[4.181s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diffdrive_arduino' with type 'ros.ament_cmake' and name 'diffdrive_arduino'
+[4.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[4.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[4.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[4.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[4.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[4.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[4.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ignore', 'ignore_ament_install']
+[4.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore'
+[4.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore_ament_install'
+[4.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_pkg']
+[4.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_pkg'
+[4.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_meta']
+[4.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_meta'
+[4.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ros']
+[4.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ros'
+[4.194s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial' with type 'ros.ament_cmake' and name 'serial'
+[4.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_mux_example) by extensions ['ignore', 'ignore_ament_install']
+[4.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_mux_example) by extension 'ignore'
+[4.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_mux_example) by extension 'ignore_ament_install'
+[4.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_mux_example) by extensions ['colcon_pkg']
+[4.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_mux_example) by extension 'colcon_pkg'
+[4.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_mux_example) by extensions ['colcon_meta']
+[4.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_mux_example) by extension 'colcon_meta'
+[4.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_mux_example) by extensions ['ros']
+[4.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_mux_example) by extension 'ros'
+[4.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_mux_example) by extensions ['cmake', 'python']
+[4.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_mux_example) by extension 'cmake'
+[4.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_mux_example) by extension 'python'
+[4.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_mux_example) by extensions ['python_setup_py']
+[4.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_mux_example) by extension 'python_setup_py'
+[4.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_mux_example/src) by extensions ['ignore', 'ignore_ament_install']
+[4.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_mux_example/src) by extension 'ignore'
+[4.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_mux_example/src) by extension 'ignore_ament_install'
+[4.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_mux_example/src) by extensions ['colcon_pkg']
+[4.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_mux_example/src) by extension 'colcon_pkg'
+[4.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_mux_example/src) by extensions ['colcon_meta']
+[4.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_mux_example/src) by extension 'colcon_meta'
+[4.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_mux_example/src) by extensions ['ros']
+[4.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_mux_example/src) by extension 'ros'
+[4.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_mux_example/src) by extensions ['cmake', 'python']
+[4.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_mux_example/src) by extension 'cmake'
+[4.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_mux_example/src) by extension 'python'
+[4.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_mux_example/src) by extensions ['python_setup_py']
+[4.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_mux_example/src) by extension 'python_setup_py'
+[4.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_mux_example/src/twist_mux_test) by extensions ['ignore', 'ignore_ament_install']
+[4.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_mux_example/src/twist_mux_test) by extension 'ignore'
+[4.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_mux_example/src/twist_mux_test) by extension 'ignore_ament_install'
+[4.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_mux_example/src/twist_mux_test) by extensions ['colcon_pkg']
+[4.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_mux_example/src/twist_mux_test) by extension 'colcon_pkg'
+[4.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_mux_example/src/twist_mux_test) by extensions ['colcon_meta']
+[4.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_mux_example/src/twist_mux_test) by extension 'colcon_meta'
+[4.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_mux_example/src/twist_mux_test) by extensions ['ros']
+[4.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_mux_example/src/twist_mux_test) by extension 'ros'
+[4.211s] DEBUG:colcon.colcon_core.package_identification:Package 'src/twist_mux_example/src/twist_mux_test' with type 'ros.ament_python' and name 'twist_mux_test'
+[4.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.446s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.446s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.479s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 291 installed packages in /opt/ros/humble
+[4.487s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[5.061s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_args' from command line to 'None'
+[5.061s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_target' from command line to 'None'
+[5.061s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.062s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_clean_cache' from command line to 'False'
+[5.062s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_clean_first' from command line to 'False'
+[5.062s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_force_configure' from command line to 'False'
+[5.062s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'ament_cmake_args' from command line to 'None'
+[5.062s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'catkin_cmake_args' from command line to 'None'
+[5.062s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.062s] DEBUG:colcon.colcon_core.verb:Building package 'articubot_one' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ass/dev_ws/build/articubot_one', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ass/dev_ws/install/articubot_one', 'merge_install': False, 'path': '/home/ass/dev_ws/src/articubot_one', 'symlink_install': False, 'test_result_base': None}
+[5.066s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_args' from command line to 'None'
+[5.067s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target' from command line to 'None'
+[5.067s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.067s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_cache' from command line to 'False'
+[5.067s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_first' from command line to 'False'
+[5.067s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_force_configure' from command line to 'False'
+[5.067s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'ament_cmake_args' from command line to 'None'
+[5.067s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_cmake_args' from command line to 'None'
+[5.067s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.067s] DEBUG:colcon.colcon_core.verb:Building package 'diffdrive_arduino' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ass/dev_ws/build/diffdrive_arduino', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ass/dev_ws/install/diffdrive_arduino', 'merge_install': False, 'path': '/home/ass/dev_ws/src/diffdrive_arduino', 'symlink_install': False, 'test_result_base': None}
+[5.071s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_args' from command line to 'None'
+[5.072s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target' from command line to 'None'
+[5.072s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.072s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_cache' from command line to 'False'
+[5.072s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_first' from command line to 'False'
+[5.072s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_force_configure' from command line to 'False'
+[5.072s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'ament_cmake_args' from command line to 'None'
+[5.072s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_cmake_args' from command line to 'None'
+[5.072s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.072s] DEBUG:colcon.colcon_core.verb:Building package 'serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ass/dev_ws/build/serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ass/dev_ws/install/serial', 'merge_install': False, 'path': '/home/ass/dev_ws/src/serial', 'symlink_install': False, 'test_result_base': None}
+[5.076s] Level 5:colcon.colcon_core.verb:set package 'twist_mux_test' build argument 'cmake_args' from command line to 'None'
+[5.077s] Level 5:colcon.colcon_core.verb:set package 'twist_mux_test' build argument 'cmake_target' from command line to 'None'
+[5.077s] Level 5:colcon.colcon_core.verb:set package 'twist_mux_test' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.077s] Level 5:colcon.colcon_core.verb:set package 'twist_mux_test' build argument 'cmake_clean_cache' from command line to 'False'
+[5.077s] Level 5:colcon.colcon_core.verb:set package 'twist_mux_test' build argument 'cmake_clean_first' from command line to 'False'
+[5.077s] Level 5:colcon.colcon_core.verb:set package 'twist_mux_test' build argument 'cmake_force_configure' from command line to 'False'
+[5.077s] Level 5:colcon.colcon_core.verb:set package 'twist_mux_test' build argument 'ament_cmake_args' from command line to 'None'
+[5.077s] Level 5:colcon.colcon_core.verb:set package 'twist_mux_test' build argument 'catkin_cmake_args' from command line to 'None'
+[5.077s] Level 5:colcon.colcon_core.verb:set package 'twist_mux_test' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.077s] DEBUG:colcon.colcon_core.verb:Building package 'twist_mux_test' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ass/dev_ws/build/twist_mux_test', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ass/dev_ws/install/twist_mux_test', 'merge_install': False, 'path': '/home/ass/dev_ws/src/twist_mux_example/src/twist_mux_test', 'symlink_install': False, 'test_result_base': None}
+[5.080s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[5.092s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[5.094s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ass/dev_ws/src/articubot_one' with build type 'ament_cmake'
+[5.095s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ass/dev_ws/src/articubot_one'
+[5.143s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[5.144s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.144s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.173s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ass/dev_ws/src/diffdrive_arduino' with build type 'ament_cmake'
+[5.174s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ass/dev_ws/src/diffdrive_arduino'
+[5.182s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.182s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.210s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ass/dev_ws/src/serial' with build type 'ament_cmake'
+[5.211s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ass/dev_ws/src/serial'
+[5.219s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.220s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.244s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ass/dev_ws/src/twist_mux_example/src/twist_mux_test' with build type 'ament_python'
+[5.246s] Level 1:colcon.colcon_core.shell:create_environment_hook('twist_mux_test', 'ament_prefix_path')
+[5.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ass/dev_ws/install/twist_mux_test/share/twist_mux_test/hook/ament_prefix_path.ps1'
+[5.270s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ass/dev_ws/install/twist_mux_test/share/twist_mux_test/hook/ament_prefix_path.dsv'
+[5.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ass/dev_ws/install/twist_mux_test/share/twist_mux_test/hook/ament_prefix_path.sh'
+[5.289s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.289s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.337s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ass/dev_ws/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ass/dev_ws/build/articubot_one -- -j4 -l4
+[5.382s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ass/dev_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ass/dev_ws/build/diffdrive_arduino -- -j4 -l4
+[5.404s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ass/dev_ws/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ass/dev_ws/build/serial -- -j4 -l4
+[7.255s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ass/dev_ws/src/twist_mux_example/src/twist_mux_test'
+[7.274s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.274s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.521s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ass/dev_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ass/dev_ws/build/articubot_one -- -j4 -l4
+[8.863s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ass/dev_ws/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ass/dev_ws/build/articubot_one
+[9.310s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(articubot_one)
+[9.315s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ass/dev_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ass/dev_ws/build/articubot_one
+[9.470s] Level 1:colcon.colcon_core.environment:checking '/home/ass/dev_ws/install/articubot_one' for CMake module files
+[9.474s] Level 1:colcon.colcon_core.environment:checking '/home/ass/dev_ws/install/articubot_one' for CMake config files
+[9.486s] Level 1:colcon.colcon_core.shell:create_environment_hook('articubot_one', 'cmake_prefix_path')
+[9.494s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ass/dev_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.ps1'
+[9.503s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ass/dev_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.dsv'
+[9.518s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ass/dev_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.sh'
+[9.536s] Level 1:colcon.colcon_core.environment:checking '/home/ass/dev_ws/install/articubot_one/bin'
+[9.537s] Level 1:colcon.colcon_core.environment:checking '/home/ass/dev_ws/install/articubot_one/lib/pkgconfig/articubot_one.pc'
+[9.538s] Level 1:colcon.colcon_core.environment:checking '/home/ass/dev_ws/install/articubot_one/lib/python3.10/site-packages'
+[9.540s] Level 1:colcon.colcon_core.environment:checking '/home/ass/dev_ws/install/articubot_one/bin'
+[9.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/ass/dev_ws/install/articubot_one/share/articubot_one/package.ps1'
+[9.580s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ass/dev_ws/install/articubot_one/share/articubot_one/package.dsv'
+[9.587s] INFO:colcon.colcon_core.shell:Creating package script '/home/ass/dev_ws/install/articubot_one/share/articubot_one/package.sh'
+[9.594s] INFO:colcon.colcon_core.shell:Creating package script '/home/ass/dev_ws/install/articubot_one/share/articubot_one/package.bash'
+[9.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/ass/dev_ws/install/articubot_one/share/articubot_one/package.zsh'
+[9.616s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ass/dev_ws/install/articubot_one/share/colcon-core/packages/articubot_one)
+[9.857s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(articubot_one)
+[9.867s] Level 1:colcon.colcon_core.environment:checking '/home/ass/dev_ws/install/articubot_one' for CMake module files
+[9.871s] Level 1:colcon.colcon_core.environment:checking '/home/ass/dev_ws/install/articubot_one' for CMake config files
+[9.874s] Level 1:colcon.colcon_core.shell:create_environment_hook('articubot_one', 'cmake_prefix_path')
+[9.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ass/dev_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.ps1'
+[9.888s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ass/dev_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.dsv'
+[9.892s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ass/dev_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.sh'
+[9.897s] Level 1:colcon.colcon_core.environment:checking '/home/ass/dev_ws/install/articubot_one/bin'
+[9.897s] Level 1:colcon.colcon_core.environment:checking '/home/ass/dev_ws/install/articubot_one/lib/pkgconfig/articubot_one.pc'
+[9.898s] Level 1:colcon.colcon_core.environment:checking '/home/ass/dev_ws/install/articubot_one/lib/python3.10/site-packages'
+[9.900s] Level 1:colcon.colcon_core.environment:checking '/home/ass/dev_ws/install/articubot_one/bin'
+[9.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/ass/dev_ws/install/articubot_one/share/articubot_one/package.ps1'
+[9.911s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ass/dev_ws/install/articubot_one/share/articubot_one/package.dsv'
+[9.914s] INFO:colcon.colcon_core.shell:Creating package script '/home/ass/dev_ws/install/articubot_one/share/articubot_one/package.sh'
+[9.919s] INFO:colcon.colcon_core.shell:Creating package script '/home/ass/dev_ws/install/articubot_one/share/articubot_one/package.bash'
+[9.922s] INFO:colcon.colcon_core.shell:Creating package script '/home/ass/dev_ws/install/articubot_one/share/articubot_one/package.zsh'
+[9.924s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ass/dev_ws/install/articubot_one/share/colcon-core/packages/articubot_one)
+[12.093s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ass/dev_ws/build/twist_mux_test': PYTHONPATH=/home/ass/dev_ws/build/twist_mux_test/prefix_override:/home/ass/dev_ws/install/twist_mux_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ass/dev_ws/build/twist_mux_test/build
+[16.232s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ass/dev_ws/build/twist_mux_test' returned '0': PYTHONPATH=/home/ass/dev_ws/build/twist_mux_test/prefix_override:/home/ass/dev_ws/install/twist_mux_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ass/dev_ws/build/twist_mux_test/build
+[16.237s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ass/dev_ws/src/twist_mux_example/src/twist_mux_test': PYTHONPATH=/home/ass/dev_ws/build/twist_mux_test/prefix_override:/home/ass/dev_ws/install/twist_mux_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/twist_mux_test build --build-base /home/ass/dev_ws/build/twist_mux_test/build install --record /home/ass/dev_ws/build/twist_mux_test/install.log --install-scripts $base/lib/twist_mux_test --single-version-externally-managed
+[18.858s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ass/dev_ws/src/twist_mux_example/src/twist_mux_test' returned '0': PYTHONPATH=/home/ass/dev_ws/build/twist_mux_test/prefix_override:/home/ass/dev_ws/install/twist_mux_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/twist_mux_test build --build-base /home/ass/dev_ws/build/twist_mux_test/build install --record /home/ass/dev_ws/build/twist_mux_test/install.log --install-scripts $base/lib/twist_mux_test --single-version-externally-managed
+[18.867s] Level 1:colcon.colcon_core.environment:checking '/home/ass/dev_ws/install/twist_mux_test' for CMake module files
+[18.872s] Level 1:colcon.colcon_core.environment:checking '/home/ass/dev_ws/install/twist_mux_test' for CMake config files
+[18.886s] Level 1:colcon.colcon_core.environment:checking '/home/ass/dev_ws/install/twist_mux_test/lib'
+[18.888s] Level 1:colcon.colcon_core.environment:checking '/home/ass/dev_ws/install/twist_mux_test/bin'
+[18.889s] Level 1:colcon.colcon_core.environment:checking '/home/ass/dev_ws/install/twist_mux_test/lib/pkgconfig/twist_mux_test.pc'
+[18.891s] Level 1:colcon.colcon_core.environment:checking '/home/ass/dev_ws/install/twist_mux_test/lib/python3.10/site-packages'
+[18.892s] Level 1:colcon.colcon_core.shell:create_environment_hook('twist_mux_test', 'pythonpath')
+[18.915s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ass/dev_ws/install/twist_mux_test/share/twist_mux_test/hook/pythonpath.ps1'
+[18.919s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ass/dev_ws/install/twist_mux_test/share/twist_mux_test/hook/pythonpath.dsv'
+[18.923s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ass/dev_ws/install/twist_mux_test/share/twist_mux_test/hook/pythonpath.sh'
+[18.929s] Level 1:colcon.colcon_core.environment:checking '/home/ass/dev_ws/install/twist_mux_test/bin'
+[18.930s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(twist_mux_test)
+[18.941s] INFO:colcon.colcon_core.shell:Creating package script '/home/ass/dev_ws/install/twist_mux_test/share/twist_mux_test/package.ps1'
+[18.946s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ass/dev_ws/install/twist_mux_test/share/twist_mux_test/package.dsv'
+[18.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/ass/dev_ws/install/twist_mux_test/share/twist_mux_test/package.sh'
+[18.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/ass/dev_ws/install/twist_mux_test/share/twist_mux_test/package.bash'
+[18.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/ass/dev_ws/install/twist_mux_test/share/twist_mux_test/package.zsh'
+[18.964s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ass/dev_ws/install/twist_mux_test/share/colcon-core/packages/twist_mux_test)
+[25.791s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ass/dev_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ass/dev_ws/build/serial -- -j4 -l4
+[25.997s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ass/dev_ws/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ass/dev_ws/build/serial
+[26.140s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[26.150s] Level 1:colcon.colcon_core.environment:checking '/home/ass/dev_ws/install/serial' for CMake module files
+[26.150s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ass/dev_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ass/dev_ws/build/serial
+[26.154s] Level 1:colcon.colcon_core.environment:checking '/home/ass/dev_ws/install/serial' for CMake config files
+[26.156s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[26.161s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ass/dev_ws/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[26.169s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ass/dev_ws/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[26.171s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ass/dev_ws/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[26.174s] Level 1:colcon.colcon_core.environment:checking '/home/ass/dev_ws/install/serial/lib'
+[26.175s] Level 1:colcon.colcon_core.environment:checking '/home/ass/dev_ws/install/serial/bin'
+[26.176s] Level 1:colcon.colcon_core.environment:checking '/home/ass/dev_ws/install/serial/lib/pkgconfig/serial.pc'
+[26.177s] Level 1:colcon.colcon_core.environment:checking '/home/ass/dev_ws/install/serial/lib/python3.10/site-packages'
+[26.178s] Level 1:colcon.colcon_core.environment:checking '/home/ass/dev_ws/install/serial/bin'
+[26.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/ass/dev_ws/install/serial/share/serial/package.ps1'
+[26.187s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ass/dev_ws/install/serial/share/serial/package.dsv'
+[26.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/ass/dev_ws/install/serial/share/serial/package.sh'
+[26.192s] INFO:colcon.colcon_core.shell:Creating package script '/home/ass/dev_ws/install/serial/share/serial/package.bash'
+[26.194s] INFO:colcon.colcon_core.shell:Creating package script '/home/ass/dev_ws/install/serial/share/serial/package.zsh'
+[26.196s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ass/dev_ws/install/serial/share/colcon-core/packages/serial)
+[26.405s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[26.416s] Level 1:colcon.colcon_core.environment:checking '/home/ass/dev_ws/install/serial' for CMake module files
+[26.420s] Level 1:colcon.colcon_core.environment:checking '/home/ass/dev_ws/install/serial' for CMake config files
+[26.422s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[26.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ass/dev_ws/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[26.433s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ass/dev_ws/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[26.439s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ass/dev_ws/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[26.442s] Level 1:colcon.colcon_core.environment:checking '/home/ass/dev_ws/install/serial/lib'
+[26.443s] Level 1:colcon.colcon_core.environment:checking '/home/ass/dev_ws/install/serial/bin'
+[26.444s] Level 1:colcon.colcon_core.environment:checking '/home/ass/dev_ws/install/serial/lib/pkgconfig/serial.pc'
+[26.445s] Level 1:colcon.colcon_core.environment:checking '/home/ass/dev_ws/install/serial/lib/python3.10/site-packages'
+[26.446s] Level 1:colcon.colcon_core.environment:checking '/home/ass/dev_ws/install/serial/bin'
+[26.452s] INFO:colcon.colcon_core.shell:Creating package script '/home/ass/dev_ws/install/serial/share/serial/package.ps1'
+[26.455s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ass/dev_ws/install/serial/share/serial/package.dsv'
+[26.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/ass/dev_ws/install/serial/share/serial/package.sh'
+[26.461s] INFO:colcon.colcon_core.shell:Creating package script '/home/ass/dev_ws/install/serial/share/serial/package.bash'
+[26.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/ass/dev_ws/install/serial/share/serial/package.zsh'
+[26.466s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ass/dev_ws/install/serial/share/colcon-core/packages/serial)
+[38.537s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ass/dev_ws/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ass/dev_ws/build/diffdrive_arduino -- -j4 -l4
+[38.664s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ass/dev_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ass/dev_ws/build/diffdrive_arduino
+[38.877s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_arduino)
+[38.886s] Level 1:colcon.colcon_core.environment:checking '/home/ass/dev_ws/install/diffdrive_arduino' for CMake module files
+[38.888s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ass/dev_ws/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ass/dev_ws/build/diffdrive_arduino
+[38.891s] Level 1:colcon.colcon_core.environment:checking '/home/ass/dev_ws/install/diffdrive_arduino' for CMake config files
+[38.897s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'cmake_prefix_path')
+[38.904s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ass/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.ps1'
+[38.911s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ass/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.dsv'
+[38.921s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ass/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.sh'
+[38.926s] Level 1:colcon.colcon_core.environment:checking '/home/ass/dev_ws/install/diffdrive_arduino/lib'
+[38.927s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'ld_library_path_lib')
+[38.934s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ass/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.ps1'
+[38.936s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ass/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.dsv'
+[38.940s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ass/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.sh'
+[38.942s] Level 1:colcon.colcon_core.environment:checking '/home/ass/dev_ws/install/diffdrive_arduino/bin'
+[38.943s] Level 1:colcon.colcon_core.environment:checking '/home/ass/dev_ws/install/diffdrive_arduino/lib/pkgconfig/diffdrive_arduino.pc'
+[38.944s] Level 1:colcon.colcon_core.environment:checking '/home/ass/dev_ws/install/diffdrive_arduino/lib/python3.10/site-packages'
+[38.945s] Level 1:colcon.colcon_core.environment:checking '/home/ass/dev_ws/install/diffdrive_arduino/bin'
+[38.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/ass/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.ps1'
+[38.953s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ass/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv'
+[38.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/ass/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.sh'
+[38.958s] INFO:colcon.colcon_core.shell:Creating package script '/home/ass/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.bash'
+[38.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/ass/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.zsh'
+[38.961s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ass/dev_ws/install/diffdrive_arduino/share/colcon-core/packages/diffdrive_arduino)
+[39.091s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_arduino)
+[39.100s] Level 1:colcon.colcon_core.environment:checking '/home/ass/dev_ws/install/diffdrive_arduino' for CMake module files
+[39.103s] Level 1:colcon.colcon_core.environment:checking '/home/ass/dev_ws/install/diffdrive_arduino' for CMake config files
+[39.105s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'cmake_prefix_path')
+[39.110s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ass/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.ps1'
+[39.112s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ass/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.dsv'
+[39.115s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ass/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.sh'
+[39.118s] Level 1:colcon.colcon_core.environment:checking '/home/ass/dev_ws/install/diffdrive_arduino/lib'
+[39.118s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'ld_library_path_lib')
+[39.124s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ass/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.ps1'
+[39.126s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ass/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.dsv'
+[39.130s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ass/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.sh'
+[39.133s] Level 1:colcon.colcon_core.environment:checking '/home/ass/dev_ws/install/diffdrive_arduino/bin'
+[39.133s] Level 1:colcon.colcon_core.environment:checking '/home/ass/dev_ws/install/diffdrive_arduino/lib/pkgconfig/diffdrive_arduino.pc'
+[39.134s] Level 1:colcon.colcon_core.environment:checking '/home/ass/dev_ws/install/diffdrive_arduino/lib/python3.10/site-packages'
+[39.135s] Level 1:colcon.colcon_core.environment:checking '/home/ass/dev_ws/install/diffdrive_arduino/bin'
+[39.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/ass/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.ps1'
+[39.143s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ass/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv'
+[39.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/ass/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.sh'
+[39.148s] INFO:colcon.colcon_core.shell:Creating package script '/home/ass/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.bash'
+[39.150s] INFO:colcon.colcon_core.shell:Creating package script '/home/ass/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.zsh'
+[39.152s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ass/dev_ws/install/diffdrive_arduino/share/colcon-core/packages/diffdrive_arduino)
+[39.153s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[39.155s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[39.155s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[39.156s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[39.226s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[39.227s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[39.227s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[39.339s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[39.345s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ass/dev_ws/install/local_setup.ps1'
+[39.357s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ass/dev_ws/install/_local_setup_util_ps1.py'
+[39.372s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ass/dev_ws/install/setup.ps1'
+[39.398s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ass/dev_ws/install/local_setup.sh'
+[39.407s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ass/dev_ws/install/_local_setup_util_sh.py'
+[39.410s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ass/dev_ws/install/setup.sh'
+[39.452s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ass/dev_ws/install/local_setup.bash'
+[39.461s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ass/dev_ws/install/setup.bash'
+[39.473s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ass/dev_ws/install/local_setup.zsh'
+[39.478s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ass/dev_ws/install/setup.zsh'

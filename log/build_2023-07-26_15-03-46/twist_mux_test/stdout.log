@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing twist_mux_test.egg-info/PKG-INFO
+writing dependency_links to twist_mux_test.egg-info/dependency_links.txt
+writing entry points to twist_mux_test.egg-info/entry_points.txt
+writing requirements to twist_mux_test.egg-info/requires.txt
+writing top-level names to twist_mux_test.egg-info/top_level.txt
+reading manifest file 'twist_mux_test.egg-info/SOURCES.txt'
+writing manifest file 'twist_mux_test.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ass/dev_ws/install/twist_mux_test/lib/python3.10/site-packages/twist-mux-test.egg-link (link to .)
+
+Installed /home/ass/dev_ws/build/twist_mux_test
+running install_data
+copying resource/twist_mux_test -> /home/ass/dev_ws/install/twist_mux_test/share/ament_index/resource_index/packages
+copying package.xml -> /home/ass/dev_ws/install/twist_mux_test/share/twist_mux_test
+copying launch/twist_mux_test.launch.py -> /home/ass/dev_ws/install/twist_mux_test/share/twist_mux_test/launch
+copying config/params.yaml -> /home/ass/dev_ws/install/twist_mux_test/share/twist_mux_test/config
